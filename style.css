@@ -34,7 +34,25 @@ body{
 }
 .header{
     display: flex;
+    flex-direction: column;
     grid-column: 1 / -1;
+}
+.paragraph{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1rem;
+    color: #414040;
+}
+.link-header{
+    padding: 1rem;
+}
+.link-header, .link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    width: min-content;
+    color: #414040;
 }
 .main{
     display: contents;
@@ -85,14 +103,9 @@ body{
     color: #fff;
 }
 .link-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .8rem;
-    width: min-content;
     color: #fff;
 }
-.paragraph{
+.paragraph-footer{
     font-weight: 300;
 }
 
