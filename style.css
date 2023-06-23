@@ -26,6 +26,7 @@ body{
     justify-content: center;
     width: 90%;
     max-width: 1000px;
+    min-width: 320px;
     margin: auto;
     padding: 4rem;
     min-height: 100vh;
@@ -93,4 +94,15 @@ body{
 }
 .paragraph{
     font-weight: 300;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size: 1.4rem;
+    }
+    .container{
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 2rem;
+    }
 }
