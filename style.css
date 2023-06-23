@@ -118,4 +118,11 @@ body{
         width: 100%;
         padding: 2rem;
     }
+    .paragraph{
+        font-size: 1.6rem;
+        padding: 0rem;
+    }
+    .link-header{
+        padding: 0rem;
+    }
 }
